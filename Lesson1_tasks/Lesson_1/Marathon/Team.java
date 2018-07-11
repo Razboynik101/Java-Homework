@@ -1,13 +1,26 @@
 package Lesson_1.Marathon;
 
+import java.util.Random;
+
 public class Team {
-    Competitor[] competitors = new Competitor[4];
     String Name;
-    public Team(Human human,Cat cat, Dog dog, Human human2){
-        competitors[0]=human;
-        competitors[1]=cat;
-        competitors[2]=dog;
-        competitors[3]=human2;
+    Random rnd = new Random();
+
+    public Team(imt num){
+       public Competitor[] competitors = new Competitor[num];
+        for (int i = 0; i < num-1 ; i++) {
+            int z = 1+ rnd.nextInt(2);
+          switch (z)
+            case 1:
+                competitors[i]=Human human;
+                break;
+            case 2:
+                competitors[i]=Cat cat;
+                break;
+            case 3:
+                competitors[i]=Dog dog;
+                break;
+        }
     }
     public void SuccessInfo(){
         for (Competitor c :competitors) {
