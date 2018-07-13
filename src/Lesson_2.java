@@ -1,7 +1,9 @@
 public class Lesson_2 {
 
-        public static void Counter(int a[][]){
-
+        public static void Counter(String a[][][][]){
+try {
+    
+}
 
 
 
@@ -15,7 +17,7 @@ public class Lesson_2 {
 
 
         public static void main(String[] args) {
-            String[][][][] arr = {{"2","6","1","4"} {3,4}};
+            String[][][][] arr = new String[][][][]{};
             Counter(arr);
         }
 
