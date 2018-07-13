@@ -18,7 +18,8 @@ try {
 
         public static void main(String[] args) {
             String[][][][] arr = new String[][][][]{};
-            Counter(arr)ж
+            Counter(arr);
+                
         }
 
 
